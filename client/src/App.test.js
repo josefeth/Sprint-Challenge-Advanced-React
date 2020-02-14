@@ -69,8 +69,8 @@ it('renders without crashing', () => {
 //   wrapper.debug();
 // }); 
 
-test('Renders Header', () => {
-  const { getByText } = render(<App />);
-  const header = getByText(/hi/i);
-  // expect(header).toBeInTheDocument();
-})
+// test('Renders Header', () => {
+//   const { getByText } = render(<App />);
+//   const header = getByText(/hi/i);
+//   // expect(header).toBeInTheDocument();
+// })
